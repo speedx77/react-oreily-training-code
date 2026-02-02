@@ -1,4 +1,5 @@
-import reactImg from './assets/rei-pfp.jpg';
+import reactImg from '../../assets/rei-pfp.jpg';
+import './Header.css'
 
 const reactDescriptions = ['Fundamental', 'Crucial', 'Core'];
 
@@ -21,15 +22,4 @@ function Header() {
   );
 }
 
-function App() {
-  return (
-    <div>
-      <Header />
-      <main>
-        <h2>Time to get started!</h2>
-      </main>
-    </div>
-  );
-}
-
-export default App;
+export default Header;
